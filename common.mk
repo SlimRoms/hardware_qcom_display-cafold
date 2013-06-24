@@ -1,12 +1,12 @@
 #Common headers
-common_includes := hardware/qcom/display-caf/libgralloc
-common_includes += hardware/qcom/display-caf/libgenlock
-common_includes += hardware/qcom/display-caf/liboverlay
-common_includes += hardware/qcom/display-caf/libcopybit
-common_includes += hardware/qcom/display-caf/libqdutils
-common_includes += hardware/qcom/display-caf/libhwcomposer
-common_includes += hardware/qcom/display-caf/libexternal
-common_includes += hardware/qcom/display-caf/libqservice
+common_includes := hardware/qcom/display-cafold/libgralloc
+common_includes += hardware/qcom/display-cafold/libgenlock
+common_includes += hardware/qcom/display-cafold/liboverlay
+common_includes += hardware/qcom/display-cafold/libcopybit
+common_includes += hardware/qcom/display-cafold/libqdutils
+common_includes += hardware/qcom/display-cafold/libhwcomposer
+common_includes += hardware/qcom/display-cafold/libexternal
+common_includes += hardware/qcom/display-cafold/libqservice
 
 ifeq ($(TARGET_USES_POST_PROCESSING),true)
     common_flags     += -DUSES_POST_PROCESSING
